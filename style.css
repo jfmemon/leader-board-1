@@ -9,14 +9,21 @@ body{
     font-weight: 500;
 }
 
-         /* ---------------
-              players
-           ---------------- */
+
+/* ---------------
+players
+---------------- */
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 .container{
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
@@ -69,6 +76,13 @@ hr{
 
 }
 
+
+
+/* -----------------------
+          blog
+----------------------- */
+
+
 .top-blog{
     padding-left: 22px;
 }
@@ -117,4 +131,37 @@ hr{
 
 .by-color{
     color:#9F9F9F;
+}
+
+
+
+/* ----------------
+       course
+----------------- */
+
+
+.course-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.top-courses{
+    width: 870px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.courses{
+    display: flex;
+}
+
+.course{
+    padding-right: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.course-image{
+    width: 266px;
+    height: 141px;
 }
