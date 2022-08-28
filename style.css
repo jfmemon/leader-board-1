@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Bhai+2&family=Figtree:wght@600&family=Poppins:wght@500&family=Roboto:wght@900&family=Smooch&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F3F1FF;
+    font-family: 'Baloo Bhai 2';
+    font-weight: 500;
+}
+
+         /* ---------------
+              players
+           ---------------- */
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.top-players{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding-bottom: 54px;
+}
+
+.top-players-title{
+    padding-left: 25px;
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.players{
+    width: 870px;
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 15px;
+    padding: 22px;
+    border-radius: 5px;
+}
+
+.player{
+    display: flex;
+    align-items: center;
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+}
+
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+hr{
+    width: 848px;
+    margin-bottom: 30px;
+    margin-left: 22px;
+    color: #D1D1D1;
+    /* margin-right: 41px; */
+
+}
+
+.top-blog{
+    padding-left: 22px;
+}
+
+.top-blog-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #562EFF;
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
+.blog{
+    display: flex;
+}
+
+.blog-images{
+    width: 177px;
+    height: 117px;
+}
+
+.thumbnail{
+    padding-left: 16px;
+}
+
+.blog-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 13px;
+}
+
+.blog-writer{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color:#562EFF;
+    text-decoration: none;
+}
+
+.by-color{
+    color:#9F9F9F;
+}
