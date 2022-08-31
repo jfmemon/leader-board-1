@@ -280,3 +280,67 @@ hr{
 .time{
     color: #ED6B4F;
 }
+
+
+
+/* -----------------------
+Media query
+----------------------- */
+
+
+@media only screen and (max-width:688px) {
+
+    main{
+        width: 100%;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+    .navitem{
+        display: none;
+    }
+
+    .navicon{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .top-players{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .players{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .top-courses{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .courses{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .course-container{
+        width: 100%;
+    }
+}
