@@ -337,10 +337,53 @@ Media query
         flex-direction: column;
         width: 100%;
         justify-content: center;
+        align-items: center;
         margin: 0;
     }
 
     .course-container{
         width: 100%;
+    }
+
+    .course{
+        width: 223px;
+    }
+
+    /* .course-image{
+        width: 253px;
+    } */
+}
+
+@media only screen and (min-width:689px) and (max-width:991px) {
+    main{
+        width: 100%;
+    }
+
+    .navbar{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .top-players{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .players{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .courses{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    .course{
+        width: 223px;
     }
 }
